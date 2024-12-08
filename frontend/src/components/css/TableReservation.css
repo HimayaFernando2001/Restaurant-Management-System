@@ -1,0 +1,137 @@
+.reservation-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reservation-form {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.submit-button {
+    padding: 10px 20px;
+    background-color: #1c5b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.submit-button:hover {
+    background-color: #1c5b1e;
+}
+
+.reservation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.reservation-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.reservation-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-reservation-button {
+    padding: 10px 20px;
+    background-color: #1c5b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-reservation-button:hover {
+    background-color: #1c5b1e;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.reservation-table th, .reservation-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.reservation-table th {
+    background-color: #f2f2f2;
+}
+
+.update-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #1c5b1e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: #1c5b1e;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}
+
+.notification {
+    background-color: #4caf50; 
+    color: white; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    text-align: center; 
+    transition: opacity 0.5s; 
+}

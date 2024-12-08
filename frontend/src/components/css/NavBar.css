@@ -1,0 +1,49 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e0c0c;
+    padding: 15px 80px;
+    position: relative; 
+}
+
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.navbar-link {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar-link a:hover {
+    color: #f0a500;
+}
+
+.auth-buttons {
+    margin-left: auto;
+}
+
+.sign-in-btn {
+    background-color: #f0a500;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.sign-in-btn:hover {
+    background-color: #e58e00;
+}

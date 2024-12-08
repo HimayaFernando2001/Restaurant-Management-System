@@ -1,0 +1,167 @@
+.reservation-container {
+    padding: 20px;
+}
+
+.search-bar-and-buttons {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 200px; 
+    padding: 5px;
+    margin-right: 880px;
+}
+
+.add-button, .report-button {
+    background-color: #127d2d; 
+    font-size: 1rem;  
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-button:hover, .report-button:hover {
+    background-color: #1a7041; 
+}
+
+.report-button {
+    margin-right: 10px; 
+}
+
+
+.reservation-form {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-row input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d8630;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.green-button {
+    background-color: #1c5b1e;
+}
+
+.submit-button:hover {
+    background-color: #1c5b1e;
+}
+
+.details-container {
+    position: relative;
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.green-button {
+    background-color: #1c5b1e;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reservation-table th, .reservation-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.update-button, .delete-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.update-button {
+    background-color: #1c631f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #911910;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.notification {
+    background-color: #4caf50;
+    color: white; 
+    padding: 10px;
+    margin: 10px 0; 
+    border-radius: 5px; 
+    text-align: center; 
+    transition: opacity 0.5s; 
+}
+
+.cancel-button {
+    background-color: #a00d0d; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #5f1616; 
+}
+
+

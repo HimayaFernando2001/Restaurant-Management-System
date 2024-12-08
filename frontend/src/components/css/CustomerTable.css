@@ -1,0 +1,96 @@
+.customer-table {
+    position: relative;
+    width: 100%;
+    height: 180vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.table-form {
+    background-color: white; 
+    padding: 2rem; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 500px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.table-form h1 {
+    margin-bottom: 1.5rem; 
+    text-align: center;
+}
+
+.error-message {
+    color: red; 
+    text-align: center;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+}
+
+.form-row {
+    margin-bottom: 1rem; 
+}
+
+.form-row label {
+    display: block; 
+    margin-bottom: 0.5rem; 
+}
+
+.form-row input,
+.form-row select {
+    width: 100%; 
+    padding: 0.5rem; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+}
+
+.submit-button,
+.cancel-button {
+    padding: 0.5rem 1rem; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.form-actions {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 1.5rem; 
+    width: 100%; 
+}
+
+.green-button {
+    background-color: #28a745; 
+    color: white; 
+}
+
+.red-button {
+    background-color: #dc3545; 
+    color: white; 
+}
+
+.green-button:hover {
+    background-color: #218838; 
+}
+
+.red-button:hover {
+    background-color: #c82333; 
+}

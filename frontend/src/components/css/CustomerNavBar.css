@@ -1,0 +1,35 @@
+.customer-nav {
+    background-color: #5e0c0c;
+    padding: 10px;
+  }
+  
+  .customer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-link a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar-link a:hover {
+    color: #f0a500;
+}
+  .signout-button {
+    background-color: #f0a500; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signout-button:hover {
+    background-color: #b73d49;
+  }
+  

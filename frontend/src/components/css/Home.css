@@ -1,0 +1,188 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350vh;
+    position: relative;
+    flex-direction: column; 
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.background-image {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    transition: opacity 1s ease-in-out; 
+}
+
+.overlay {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hotel-name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hotel-description {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px; 
+    color: black;
+    z-index: 3; 
+}
+
+.nav-button.left {
+    left: 10px; 
+}
+
+.nav-button.right {
+    right: 10px; 
+}
+
+.why-peacock-corrido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px; 
+    background-color: #cfb9b9;
+    width: 90%; 
+    border-radius: 20px; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    margin: 40px auto; 
+    left: -20px; 
+}
+
+
+.why-peacock-corrido .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.why-peacock-corrido .content h2 {
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
+}
+
+.why-peacock-corrido .content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.why-peacock-corrido .image {
+    flex: 1;
+    padding: 20px;
+}
+
+.why-peacock-corrido .image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.food {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #e6e1e1;
+    width: 100%;
+}
+
+.food .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.food .content h2 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.food .content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.food .image {
+    flex: 1;
+    padding: 20px;
+}
+
+.food .image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 200vh; 
+    gap: 100px; 
+}
+
+.image {
+    flex: 0 1 auto; 
+}
+
+.small-image {
+    max-width: 350px; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.rotate1 {
+    transform: rotate(5deg); 
+}
+
+.rotate2 {
+    transform: rotate(-5deg); 
+}
+
+.rotate3 {
+    transform: rotate(3deg); 
+}
+
+
+.small-image:hover {
+    transform: scale(1.05); 
+}
+
+
+
+

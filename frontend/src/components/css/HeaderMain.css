@@ -1,0 +1,13 @@
+.header-main-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ffffff; 
+    padding: 70px; 
+    height: 40px; 
+}
+
+.logo-main {
+    width: 200px; 
+    height: auto; 
+}

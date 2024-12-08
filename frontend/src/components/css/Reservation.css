@@ -1,0 +1,227 @@
+.reservation {
+    position: relative;
+    width: 100%;
+    height: 450vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: brightness(70%); 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    backdrop-filter: blur(5px); 
+}
+
+
+.reservation-title {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+
+.reservation-subtitle {
+    font-size: 1.5rem;
+}
+
+.reservation-description-container {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.reservation-description {
+    color: #000000; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    line-height: 1.5; 
+}
+
+
+.elliptical-image-container {
+    display: flex;           
+    justify-content: center; 
+    margin: 10px 0;        
+}
+
+.elliptical-image {
+    width: 500px;          
+    height: 250px;          
+    border-radius: 50%;     
+    object-fit: cover;      
+}
+
+.rectangle-container {
+    background-color: #cfb9b9;   
+    padding: 40px;               
+    border-radius: 15px;       
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 40px 40px;              
+}
+
+.horizontal-layout {
+    display: flex;                
+    align-items: center;         
+    justify-content: space-between; 
+}
+
+.room-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color:black;
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 0;
+    border-bottom: 2px solid #ccc;
+}
+.short-description {
+    display: flex;
+    flex: 1; 
+    font-size: 18px;                    
+    margin-right: 20px;  
+    flex-direction: column;        
+    text-align: left;           
+}
+
+.room-image-container {
+    flex: 0 0 auto;             
+}
+
+.room-image {
+    width: 700px;               
+    height: 350px;             
+    border-radius: 10px;       
+    object-fit: cover;         
+}
+
+.book-reservation-button {
+    background-color: #f0a500;  
+    color: white;               
+    padding: 10px 20px;        
+    border: none;               
+    border-radius: 5px;       
+    cursor: pointer;            
+    margin-top: 10px;    
+}
+
+.book-reservation-button:hover {
+    background-color: #e58e00;  
+}
+
+.table-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color:black;
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 0;
+    border-bottom: 2px solid #ccc;
+}
+.short-description-t {
+    display: flex;
+    flex: 1;  
+    font-size: 18px;                   
+    margin-left: 20px;  
+    flex-direction: column;        
+    text-align: left;           
+}
+
+.table-image-container {
+    flex: 0 0 auto;             
+}
+
+.table-image {
+    width: 700px;               
+    height: 350px;             
+    border-radius: 10px;        
+    object-fit: cover;          
+}
+
+.outdoor-heading {
+    font-size: 32px;             
+    font-weight: bold;          
+    color: black;               
+    text-align: left;            
+    margin-bottom: 20px;         
+    padding: 0;              
+    border-bottom: 2px solid #ccc; 
+}
+
+.short-description-o {
+    display: flex;               
+    flex: 1;    
+    font-size: 18px;                
+    margin-right: 20px;          
+    flex-direction: column;      
+    text-align: left;            
+}
+
+.outdoor-image-container {
+    flex: 0 0 auto;              
+}
+
+.outdoor-image {
+    width: 700px;               
+    height: 350px;              
+    border-radius: 10px;         
+    object-fit: cover;          
+}
+
+.photo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 200vh; 
+    gap: 100px; 
+}
+
+.image {
+    flex: 0 1 auto; 
+}
+
+.small-image {
+    max-width: 350px; 
+    height: 250px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.rotate1 {
+    transform: rotate(5deg); 
+}
+
+.rotate2 {
+    transform: rotate(-5deg); 
+}
+
+.rotate3 {
+    transform: rotate(3deg); 
+}
+
+.small-image:hover {
+    transform: scale(1.05); 
+}
